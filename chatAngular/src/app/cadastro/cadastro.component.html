@@ -1,0 +1,30 @@
+<link rel="stylesheet" href="cadastro.component.css">
+
+<div class="cadastro-container">
+   <h2>Cadastro</h2>
+   <label for="username">Login:</label>
+   <input [(ngModel)]="username" type="text" id="username" name="username" required>
+   <br><br>
+
+   <label for="password">Senha:</label>
+   <input [(ngModel)]="password" type="password" id="password" name="password" required>
+   <br><br>
+
+   <label for="confirmPassword">Confirme sua senha:</label>
+   <input [(ngModel)]="confirmPassword" type="password" id="confirmPassword" name="confirmPassword" required>
+   <br><br>
+
+   <label for="fullname">Nome completo:</label>
+   <input [(ngModel)]="fullname" type="text" id="fullname" name="fullname" required>
+   <br><br>
+
+   <label for="photo">Foto:</label>
+   <input [(ngModel)]="photo" type="text" id="photo" name="photo">
+   <br><br>
+
+   <label for="email">E-mail:</label>
+   <input [(ngModel)]="email" type="email" id="email" name="email" required>
+   <br><br>
+
+   <button (click)="register()">Salvar</button> 
+</div>

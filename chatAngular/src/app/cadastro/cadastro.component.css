@@ -1,0 +1,59 @@
+/* CSS do formulário de cadastro */
+.cadastro-container{
+  max-width: 400px;
+  margin: 3% auto;
+  padding: 20px;
+  border: 1px solid #cfcfcf;
+  border-radius: 4px;
+  background-color: #f5f4f4;
+  box-shadow:2px 2px 2px 1px rgba(202, 202, 202, 0.2);
+}
+  
+   h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    margin-left: 38%;
+  }
+  
+   label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  input[type="password"],
+  input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #eaeaea;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+  }
+  input:hover{
+    border-color: #05acc9;
+    transition: 1s;
+  }
+  
+ button {
+  background-color: #059fba;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+ 
+    margin-left: 38%;
+  }
+ button:hover {
+  background-color: #05acc9;
+  transition: 1s;
+  }
+
+  
+  .form-container .error-message {
+    color: red;
+    margin-bottom: 10px;
+  }
+  

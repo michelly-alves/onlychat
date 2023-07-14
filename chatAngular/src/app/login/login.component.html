@@ -1,0 +1,17 @@
+<link rel="stylesheet" href="login.component.css">
+<div class="login-container">
+  <h2>Login</h2>
+  <a style="color: red;">{{ loginFailMessage }}</a>
+  <br /><br />
+  <label>Usuário:</label>
+  <input [(ngModel)]="username" type="text" />
+  <br /><br />
+  <label>Senha:</label>
+  <input [(ngModel)]="password" type="password" />
+  <br /><br />
+  <a href="http://localhost:4200/register" id="novoUser">
+    Novo usuário
+  </a>
+  <br>
+  <button (click)="login()">Entrar</button>
+</div>

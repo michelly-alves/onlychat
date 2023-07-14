@@ -1,0 +1,14 @@
+.user-perfil {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .user-photo {
+    margin-right: 10px;
+  }
+  
+  .user-details {
+    font-weight: bold;
+  }
+  
